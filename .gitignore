@@ -18,6 +18,7 @@ $RECYCLE.BIN/
 *.suo
 bin/
 obj/
+*.sln.ide/
 
 
 # =========================
