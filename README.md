@@ -1,13 +1,19 @@
 RDLCReportRunner
 ================
 
-A simple RDLC report runner library. A handy little tool to own if you ever want to create pdf files on the fly from your application. There are, of course, some other open source or commercial 3rd party libraries that allow you to create pdfs by  hand rolling your pdf document, but for me the easiest way to create a pdf document is to use an RDLC report.
+A simple RDLC report runner library. 
+
+** Build Status: ** [![Build status](https://ci.appveyor.com/api/projects/status/xv1fexieug0l4441)](https://ci.appveyor.com/project/cmatskas/rdlcreportrunner)
+
+The RDLCReportRunner is a handy little tool to own if you want to create pdf files on the fly from within your application. It can be used on both desktop and web apps :) There are, of course, other open source or commercial 3rd party libraries that allow you to create pdfs by hand-rolling your pdf document, but for me the easiest way to create a pdf document is to use an RDLC report.
 
 I know, I know, RDLC reports are aweful, the technology is old and ugly, but it is free and convenient to use once you get the hang of it. The designer is bad (kinda like an Access Form) and there aren't many configuration options, but it gets the job done.
 
 So how do you use the RDLCReportRunner library?
 
 ###Instantiate the RDLC Report Runner###
+
+Firstly, you need to create an RDLC report to use with the RDLCReportRunner. The report can use a datasource, parameters or both. Then you need to instantiate the RdlcReportRunner and populate the right properties as per the example below:
 
 ```
 var rdlcReportRunner = new RdlcReportRunner
