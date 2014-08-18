@@ -3,7 +3,7 @@ RDLCReportRunner
 
 A simple RDLC report runner library. 
 
-** Build Status: ** [![Build status](https://ci.appveyor.com/api/projects/status/xv1fexieug0l4441)](https://ci.appveyor.com/project/cmatskas/rdlcreportrunner)
+**Build Status:** [![Build status](https://ci.appveyor.com/api/projects/status/xv1fexieug0l4441)](https://ci.appveyor.com/project/cmatskas/rdlcreportrunner)
 
 The RDLCReportRunner is a handy little tool to own if you want to create pdf files on the fly from within your application. It can be used on both desktop and web apps :) There are, of course, other open source or commercial 3rd party libraries that allow you to create pdfs by hand-rolling your pdf document, but for me the easiest way to create a pdf document is to use an RDLC report.
 
